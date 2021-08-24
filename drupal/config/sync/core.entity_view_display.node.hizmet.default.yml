@@ -1,0 +1,57 @@
+uuid: 517ccaf3-217c-49b8-a9a7-e454edf74934
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.field.node.hizmet.body
+    - field.field.node.hizmet.field_galeri_gorselleri
+    - field.field.node.hizmet.field_hizmet_gorseli
+    - field.field.node.hizmet.field_siralama
+    - node.type.hizmet
+  module:
+    - image
+    - text
+    - user
+id: node.hizmet.default
+targetEntityType: node
+bundle: hizmet
+mode: default
+content:
+  addtoany:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_galeri_gorselleri:
+    weight: 3
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_hizmet_gorseli:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_siralama: true
+  langcode: true

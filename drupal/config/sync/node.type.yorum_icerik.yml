@@ -1,0 +1,17 @@
+uuid: 396c992e-642e-4eb3-8168-349824f880f9
+langcode: tr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Yorum İçerik'
+type: yorum_icerik
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

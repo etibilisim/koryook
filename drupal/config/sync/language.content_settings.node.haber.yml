@@ -1,0 +1,11 @@
+uuid: 92a70a2c-835d-45b8-adc4-9b09343b9026
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.haber
+id: node.haber
+target_entity_type_id: node
+target_bundle: haber
+default_langcode: site_default
+language_alterable: false

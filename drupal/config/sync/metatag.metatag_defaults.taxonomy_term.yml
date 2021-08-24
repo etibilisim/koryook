@@ -1,0 +1,12 @@
+uuid: e5141479-d3bc-4332-bedc-2b5c80b5905f
+langcode: tr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 92bXZdyYJ5xqukdfmGRr_CYcwm1vfuS8b8aJ7X_G7E0
+id: taxonomy_term
+label: 'Sınıflandırma terimi'
+tags:
+  canonical_url: '[term:url]'
+  description: '[term:description]'
+  title: '[term:name] | [site:name]'

@@ -1,0 +1,24 @@
+uuid: 0c708cdf-b787-48fc-b222-87fae40591e4
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.fotograf.field_galeri_gorselleri
+    - node.type.fotograf
+  module:
+    - user
+id: node.fotograf.teaser
+targetEntityType: node
+bundle: fotograf
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  field_galeri_gorselleri: true
+  langcode: true

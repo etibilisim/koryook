@@ -1,0 +1,22 @@
+uuid: c2692b9d-f6b2-4eaf-ab4d-86fc08958f4a
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+id: temel_sayfa_ve_webform_url_yol_ayari
+label: 'Temel Sayfa ve Webform URL Yol Ayari'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  1c52c7b4-a2c9-47bf-81fa-b932575e1749:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 1c52c7b4-a2c9-47bf-81fa-b932575e1749
+selection_logic: and
+weight: -5
+relationships: {  }

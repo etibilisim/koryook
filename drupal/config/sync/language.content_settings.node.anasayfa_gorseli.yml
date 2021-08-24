@@ -1,0 +1,11 @@
+uuid: c3cdc387-ff50-4466-9f2d-a05e44301c9f
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.anasayfa_gorseli
+id: node.anasayfa_gorseli
+target_entity_type_id: node
+target_bundle: anasayfa_gorseli
+default_langcode: site_default
+language_alterable: false

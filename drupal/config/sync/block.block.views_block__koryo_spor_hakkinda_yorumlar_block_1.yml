@@ -1,0 +1,30 @@
+uuid: 5aa398f0-211d-441e-888b-64bd260c30fe
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.koryo_spor_hakkinda_yorumlar
+  module:
+    - system
+    - views
+  theme:
+    - conference_lite
+id: views_block__koryo_spor_hakkinda_yorumlar_block_1
+theme: conference_lite
+region: highlighted
+weight: 0
+provider: null
+plugin: 'views_block:koryo_spor_hakkinda_yorumlar-block_1'
+settings:
+  id: 'views_block:koryo_spor_hakkinda_yorumlar-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

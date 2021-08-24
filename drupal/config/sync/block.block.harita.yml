@@ -1,0 +1,25 @@
+uuid: 55043672-9e64-4a7b-9ae7-d9b3d44e543a
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8cecd004-5363-48a0-9381-0982ca2294d5'
+  module:
+    - block_content
+  theme:
+    - conference_lite
+id: harita
+theme: conference_lite
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:8cecd004-5363-48a0-9381-0982ca2294d5'
+settings:
+  id: 'block_content:8cecd004-5363-48a0-9381-0982ca2294d5'
+  label: Harita
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

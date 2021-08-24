@@ -1,0 +1,25 @@
+uuid: 2a890d83-72ca-4668-9675-70990e500b41
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kullanici_ikon
+    - node.type.yorum_icerik
+  module:
+    - fontawesome
+id: node.yorum_icerik.field_kullanici_ikon
+field_name: field_kullanici_ikon
+entity_type: node
+bundle: yorum_icerik
+label: 'Kullanıcı İkon'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    icon_name: user-circle
+    settings: 'a:4:{s:4:"size";s:5:"fa-3x";s:7:"duotone";a:3:{s:12:"swap-opacity";i:0;s:7:"opacity";a:2:{s:7:"primary";s:0:"";s:9:"secondary";s:0:"";}s:5:"color";a:2:{s:7:"primary";s:7:"#000000";s:9:"secondary";s:7:"#000000";}}s:7:"masking";a:2:{s:4:"mask";s:0:"";s:5:"style";s:3:"fas";}s:16:"power_transforms";a:3:{s:5:"scale";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_y";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_x";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}}}'
+    style: fas
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

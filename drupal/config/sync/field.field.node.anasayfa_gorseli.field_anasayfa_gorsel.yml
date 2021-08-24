@@ -1,0 +1,38 @@
+uuid: 59b5fbfc-c5b6-426e-bc3c-24103b793594
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_anasayfa_gorsel
+    - node.type.anasayfa_gorseli
+  module:
+    - image
+id: node.anasayfa_gorseli.field_anasayfa_gorsel
+field_name: field_anasayfa_gorsel
+entity_type: node
+bundle: anasayfa_gorseli
+label: 'Anasayfa Görsel'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'anasayfa-gorselleri/[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: true
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

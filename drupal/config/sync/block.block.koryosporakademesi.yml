@@ -1,0 +1,31 @@
+uuid: ba3623b4-95cc-41b5-bdbe-09a1bce2860c
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:476cbcad-b345-46e3-a556-b22e6cd38657'
+  module:
+    - block_content
+    - system
+  theme:
+    - conference_lite
+id: koryosporakademesi
+theme: conference_lite
+region: banner
+weight: 0
+provider: null
+plugin: 'block_content:476cbcad-b345-46e3-a556-b22e6cd38657'
+settings:
+  id: 'block_content:476cbcad-b345-46e3-a556-b22e6cd38657'
+  label: 'Koryo Spor Akademesi'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

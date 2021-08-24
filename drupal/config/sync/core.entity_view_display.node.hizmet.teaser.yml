@@ -1,0 +1,38 @@
+uuid: 48bb7a51-7b15-48a9-9d91-7ddcfdbcb770
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.hizmet.body
+    - field.field.node.hizmet.field_galeri_gorselleri
+    - field.field.node.hizmet.field_hizmet_gorseli
+    - field.field.node.hizmet.field_siralama
+    - node.type.hizmet
+  module:
+    - text
+    - user
+id: node.hizmet.teaser
+targetEntityType: node
+bundle: hizmet
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  field_galeri_gorselleri: true
+  field_hizmet_gorseli: true
+  field_siralama: true
+  langcode: true

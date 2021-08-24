@@ -1,0 +1,22 @@
+uuid: 33e5f2c5-91cf-467d-94e3-b6cb26c9dc94
+langcode: tr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - conference_lite
+_core:
+  default_config_hash: 6UvqM0mTKljxsEucUWNr3UdP3IwKLUXkjA2uW09aAnI
+id: conference_lite_powered
+theme: conference_lite
+region: hidden_blocks_collection
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Drupal tabanlıdır'
+  provider: system
+  label_display: '0'
+visibility: {  }

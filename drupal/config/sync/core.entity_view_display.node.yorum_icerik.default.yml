@@ -1,0 +1,40 @@
+uuid: e5afe503-274e-4687-9828-05ba537ccea7
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.field.node.yorum_icerik.body
+    - field.field.node.yorum_icerik.field_kullanici_ikon
+    - node.type.yorum_icerik
+  module:
+    - fontawesome
+    - text
+    - user
+id: node.yorum_icerik.default
+targetEntityType: node
+bundle: yorum_icerik
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_kullanici_ikon:
+    type: fontawesome_icon_formatter
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      layers: false
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  langcode: true

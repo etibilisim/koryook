@@ -1,0 +1,22 @@
+uuid: a1cdce69-5bf8-4d0a-a419-d68a77103624
+langcode: tr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bartik
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: bartik_messages
+theme: bartik
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Durum mesajları'
+  provider: system
+  label_display: '0'
+visibility: {  }

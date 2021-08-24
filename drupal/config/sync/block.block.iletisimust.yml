@@ -1,0 +1,25 @@
+uuid: 8f766f04-eab9-4634-99ab-d6b83c4b39b5
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2379051b-f8e6-40d0-b97d-ad4c0e757ecb'
+  module:
+    - block_content
+  theme:
+    - conference_lite
+id: iletisimust
+theme: conference_lite
+region: header_top_highlighted_first
+weight: 0
+provider: null
+plugin: 'block_content:2379051b-f8e6-40d0-b97d-ad4c0e757ecb'
+settings:
+  id: 'block_content:2379051b-f8e6-40d0-b97d-ad4c0e757ecb'
+  label: 'İletişim Üst'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

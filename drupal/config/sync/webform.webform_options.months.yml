@@ -1,0 +1,14 @@
+uuid: b05eca16-58af-4512-a2e3-1376a16062a4
+langcode: tr
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: pZJnuQkh9afNML5IcMuKTUC__vmHMFn66Qr5IWtedZ4
+id: months
+label: Months
+category: 'Tarih ve zaman'
+likert: false
+options: 'Ocak: Ocak Şubat: Şubat Mart: Mart Nisan: Nisan Mayıs: Mayıs Haziran: Haziran Temmuz: Temmuz Ağustos: Ağustos Eylül: Eylül Ekim: Ekim Kasım: Kasım Aralık: Aralık '

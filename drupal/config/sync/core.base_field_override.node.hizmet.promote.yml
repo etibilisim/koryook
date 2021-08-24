@@ -1,0 +1,22 @@
+uuid: 08dea966-8d80-44ae-879a-7ca9cfafb9dd
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.hizmet
+id: node.hizmet.promote
+field_name: promote
+entity_type: node
+bundle: hizmet
+label: 'Ana sayfaya yükseltilmiş'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Açık
+  off_label: Kapalı
+field_type: boolean

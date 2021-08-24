@@ -1,0 +1,8 @@
+uuid: bed76651-5818-4bcb-a444-c2fa4c3d4969
+langcode: tr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: U5VlGjd_SfV0Qm_EfnaynOfc549cNscFAx48JfYoMRI
+id: default
+label: Varsayılan

@@ -1,0 +1,21 @@
+uuid: e4d63584-db41-490d-a062-2d5aa0bee247
+langcode: tr
+status: true
+dependencies:
+  module:
+    - system
+id: frontpage_effects
+label: 'Frontpage Effects'
+code: "window.onload = function(){\n    const EFFECT = document.querySelector(\"#block-views-block-hizmetlerimiz-block-2\");\n    const EFFECT2 = document.querySelector(\"#block-ahmetercananasayfa\");\n    const EFFECT3 = document.querySelector(\"#block-anasayfahakkimizdablok\");\n    window.addEventListener('scroll', scrollEffect1);\n    window.addEventListener('scroll', scrollEffect2);\n    window.addEventListener('scroll', scrollEffect3);\n    window.addEventListener('scroll', scrollEffect4);\n    var offset1 = document.getElementById(\"featured-top\");\n    var offset2 = document.getElementById(\"footer-top\");\n    var x = offset1.offsetTop;\n    var y = offset2.offsetTop;\n    var z = window.innerWidth;\n    var j = x-150;\n    var k = y-150;\n    var l = x-250;\n    var m = y-250;\n    function scrollEffect1(){\n        if(window.scrollY>=(j)){\n        EFFECT.style.opacity='1';\n        EFFECT.style.transform='translateX(0px)';\n        EFFECT.style.transition='0.3s ease-in-out';\n        }\n        else{\n        EFFECT.style.opacity='0';\n        EFFECT.style.transform='translateX(100px)';\n        }\n     }\n     function scrollEffect3(){\n        if(window.scrollY>=(k)){\n            EFFECT2.style.opacity='1';\n            EFFECT2.style.transform='translateX(0px)';\n            EFFECT2.style.transition='0.3s ease-in-out';\n            EFFECT3.style.opacity='1';\n            EFFECT3.style.transform='translateX(0px)';\n            EFFECT3.style.transition='0.8s ease-in-out';\n        }\n        else{\n            EFFECT2.style.opacity='0';\n            EFFECT2.style.transform='translateX(-100px)';\n            EFFECT3.style.opacity='0';\n            EFFECT3.style.transform='translateX(100px)';\n        }\n    }\n    function scrollEffect2(){\n        if(window.scrollY>=(l)){\n        EFFECT.style.opacity='1';\n        EFFECT.style.transform='translateX(0px)';\n        EFFECT.style.transition='0.3s ease-in-out';\n        }\n        else{\n        EFFECT.style.opacity='0';\n        EFFECT.style.transform='translateX(100px)';\n        }\n     }\n     function scrollEffect4(){\n        if(window.scrollY>=m){\n            EFFECT2.style.opacity='1';\n            EFFECT2.style.transform='translateX(0px)';\n            EFFECT2.style.transition='0.3s ease-in-out';\n            EFFECT3.style.opacity='1';\n            EFFECT3.style.transform='translateX(0px)';\n            EFFECT3.style.transition='0.8s ease-in-out';\n        }\n        else{\n            EFFECT2.style.opacity='0';\n            EFFECT2.style.transform='translateX(-100px)';\n            EFFECT3.style.opacity='0';\n            EFFECT3.style.transform='translateX(100px)';\n        }\n    }\n    if (z > 768){\n        scrollEffect1();\n        scrollEffect3();\n    } \n    else{\n        scrollEffect2();\n        scrollEffect4();\n    }\n};"
+conditions_require_all: true
+conditions:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+contexts: {  }
+header: false
+preprocess: true
+jquery: false
+noscript: ''
+noscriptRegion: {  }

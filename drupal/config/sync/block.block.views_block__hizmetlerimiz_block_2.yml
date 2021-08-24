@@ -1,0 +1,30 @@
+uuid: 0a484224-329e-4e26-9d97-7239c1f2183e
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.hizmetlerimiz
+  module:
+    - system
+    - views
+  theme:
+    - conference_lite
+id: views_block__hizmetlerimiz_block_2
+theme: conference_lite
+region: featured_top
+weight: 0
+provider: null
+plugin: 'views_block:hizmetlerimiz-block_2'
+settings:
+  id: 'views_block:hizmetlerimiz-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

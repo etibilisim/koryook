@@ -1,0 +1,18 @@
+uuid: f825c7b6-dd4d-4b43-bd21-6f28ee800bfe
+langcode: tr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Hizmet
+type: hizmet
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

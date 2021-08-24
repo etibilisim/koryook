@@ -1,0 +1,17 @@
+uuid: 97fbccd0-d1c2-4137-91d9-4678ff157e18
+langcode: tr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Anasayfa Görseli'
+type: anasayfa_gorseli
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

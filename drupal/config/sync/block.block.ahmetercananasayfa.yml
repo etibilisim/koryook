@@ -1,0 +1,25 @@
+uuid: a2e3025a-cedb-42fc-b340-7a5fc3eaea75
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f4b4b528-05a9-4cec-99e4-a6214e85b425'
+  module:
+    - block_content
+  theme:
+    - conference_lite
+id: ahmetercananasayfa
+theme: conference_lite
+region: footer_top_first
+weight: 0
+provider: null
+plugin: 'block_content:f4b4b528-05a9-4cec-99e4-a6214e85b425'
+settings:
+  id: 'block_content:f4b4b528-05a9-4cec-99e4-a6214e85b425'
+  label: 'Ahmet Ercan Anasayfa'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

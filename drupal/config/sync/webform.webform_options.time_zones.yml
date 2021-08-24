@@ -1,0 +1,14 @@
+uuid: ca40c6e9-74f9-4021-a893-1b9871925bfd
+langcode: tr
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: 8rVcRXLnTAEoWs7zl8du-7RIUnayqUcGYnvb3JT21-o
+id: time_zones
+label: 'Zaman dilimleri'
+category: 'Tarih ve zaman'
+likert: false
+options: ''

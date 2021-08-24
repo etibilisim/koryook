@@ -1,0 +1,23 @@
+uuid: 92f5a14d-e6f0-4d6b-abe9-e015c24cb3bf
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.hizmet
+  module:
+    - text
+id: node.hizmet.body
+field_name: body
+entity_type: node
+bundle: hizmet
+label: 'Yazı Alanı'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

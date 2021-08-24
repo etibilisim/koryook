@@ -1,0 +1,36 @@
+uuid: eb891aca-fac6-4f89-9348-64394896e508
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.haber.body
+    - field.field.node.haber.field_galeri_gorselleri
+    - field.field.node.haber.field_one_cikan_gorsel
+    - node.type.haber
+  module:
+    - text
+    - user
+id: node.haber.teaser
+targetEntityType: node
+bundle: haber
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  field_galeri_gorselleri: true
+  field_one_cikan_gorsel: true
+  langcode: true

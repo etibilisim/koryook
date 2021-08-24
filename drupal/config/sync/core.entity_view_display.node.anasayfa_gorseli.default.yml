@@ -1,0 +1,41 @@
+uuid: c7b1045b-ce3c-412d-bec4-cf11136211bc
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.field.node.anasayfa_gorseli.body
+    - field.field.node.anasayfa_gorseli.field_anasayfa_gorsel
+    - node.type.anasayfa_gorseli
+  module:
+    - image
+    - text
+    - user
+id: node.anasayfa_gorseli.default
+targetEntityType: node
+bundle: anasayfa_gorseli
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_anasayfa_gorsel:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

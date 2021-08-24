@@ -1,0 +1,22 @@
+uuid: d0fe766a-2750-4944-85bf-175e33acb056
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.anasayfa_gorseli
+id: node.anasayfa_gorseli.promote
+field_name: promote
+entity_type: node
+bundle: anasayfa_gorseli
+label: 'Ana sayfaya yükseltilmiş'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Açık
+  off_label: Kapalı
+field_type: boolean

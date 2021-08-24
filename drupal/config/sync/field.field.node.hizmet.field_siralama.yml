@@ -1,0 +1,23 @@
+uuid: fa19b309-05bd-4323-a68c-761c310ff94b
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_siralama
+    - node.type.hizmet
+id: node.hizmet.field_siralama
+field_name: field_siralama
+entity_type: node
+bundle: hizmet
+label: Sıralama
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

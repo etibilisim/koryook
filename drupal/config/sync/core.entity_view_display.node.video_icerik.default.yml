@@ -1,0 +1,47 @@
+uuid: 2444eb4d-1b49-453e-9c2f-08fccc17d23b
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.field.node.video_icerik.body
+    - field.field.node.video_icerik.field_video_url
+    - node.type.video_icerik
+  module:
+    - text
+    - user
+    - video_embed_field
+id: node.video_icerik.default
+targetEntityType: node
+bundle: video_icerik
+mode: default
+content:
+  addtoany:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  body:
+    label: hidden
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_video_url:
+    weight: 1
+    label: hidden
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

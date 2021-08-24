@@ -1,0 +1,15 @@
+uuid: 80a9e236-b4b5-4287-aad5-64c22d5a3fa3
+langcode: tr
+status: true
+dependencies: {  }
+name: anasayfa_slider_1920x640
+label: 'Anasayfa Slider 1920x640'
+effects:
+  2d9a250e-b474-4abe-843f-db39f88aa94f:
+    uuid: 2d9a250e-b474-4abe-843f-db39f88aa94f
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1920
+      height: 640
+      anchor: center-center

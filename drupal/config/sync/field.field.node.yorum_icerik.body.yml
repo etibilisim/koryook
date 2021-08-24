@@ -1,0 +1,23 @@
+uuid: b9de03af-15e8-48af-82e0-5136dd9df2ac
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.yorum_icerik
+  module:
+    - text
+id: node.yorum_icerik.body
+field_name: body
+entity_type: node
+bundle: yorum_icerik
+label: 'Yazı Alanı'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

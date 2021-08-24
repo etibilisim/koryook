@@ -1,0 +1,27 @@
+uuid: 6b870f11-7140-44c9-9220-d3f71b1166eb
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+id: makale_fotograf_video_yorum_url_ayarlari
+label: 'Makale, Fotoğraf, Video, Yorum URL Ayarları'
+type: 'canonical_entities:node'
+pattern: '[node:content-type]/[node:title]'
+selection_criteria:
+  9fb9a834-8f20-4c09-834d-a6373e211412:
+    id: node_type
+    bundles:
+      anasayfa_gorseli: anasayfa_gorseli
+      article: article
+      fotograf: fotograf
+      hizmet: hizmet
+      video_icerik: video_icerik
+      yorum_icerik: yorum_icerik
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 9fb9a834-8f20-4c09-834d-a6373e211412
+selection_logic: and
+weight: -5
+relationships: {  }

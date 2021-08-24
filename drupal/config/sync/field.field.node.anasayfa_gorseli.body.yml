@@ -1,0 +1,23 @@
+uuid: db32eb0f-c976-4963-ab5d-0704c902786a
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.anasayfa_gorseli
+  module:
+    - text
+id: node.anasayfa_gorseli.body
+field_name: body
+entity_type: node
+bundle: anasayfa_gorseli
+label: 'Yazı Alanı'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,34 @@
+uuid: 9a856eb8-f9b6-4dd0-a371-48e257d1f557
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.yorum_icerik.body
+    - field.field.node.yorum_icerik.field_kullanici_ikon
+    - node.type.yorum_icerik
+  module:
+    - text
+    - user
+id: node.yorum_icerik.teaser
+targetEntityType: node
+bundle: yorum_icerik
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  field_kullanici_ikon: true
+  langcode: true
